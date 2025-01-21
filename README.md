@@ -1,7 +1,7 @@
 # MVO
 
 ```
-conda create -n dpt-vo python==3.8.0
+conda create -n dpt-vo python=3.8
 conda activate dpt-vo
 ```
 
