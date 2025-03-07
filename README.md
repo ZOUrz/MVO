@@ -35,4 +35,13 @@ pip install matplotlib==3.5.2
 pip install scikit-learn
 ```
 
+# DS-SLAM
 
+```
+conda create -n ds-slam python=3.7
+conda activate ds-slam
+```
+
+```
+pip install opencv-contrib-python==3.4.2.17
+```
