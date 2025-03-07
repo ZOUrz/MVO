@@ -44,4 +44,25 @@ conda activate ds-slam
 
 ```
 pip install opencv-contrib-python==3.4.2.17
+pip install matplotlib
+```
+
+```
+conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2
+```
+
+```
+python
+```
+
+```
+import torch
+print(torch.cuda.is_available())
+print(torch.backends.cudnn.is_available())
+print(torch.version.cuda)
+print(torch.backends.cudnn.version())
+```
+
+```
+pip install termcolor
 ```
