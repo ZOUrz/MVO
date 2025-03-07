@@ -65,4 +65,5 @@ print(torch.backends.cudnn.version())
 
 ```
 pip install termcolor
+pip install pyyaml
 ```
